@@ -32,4 +32,4 @@ class Word:
 
 
 zapros = Word('instruction.txt', 'word.txt').replace_letter()
-print(zapros)
+print(zapros.sorted())
